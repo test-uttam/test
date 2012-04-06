@@ -1,0 +1,6 @@
+<?php
+error_reporting(0);
+//echo "in success file";
+$arrData['success'] = true;
+echo $_GET['callback'].'('.json_encode($arrData).')';
+?>
